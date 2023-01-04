@@ -1,23 +1,14 @@
 # Array of Strings
 
-name = "Angel Byun"
-pet = "Harvey"
-sibling = "Christopher"
-place = "Denver"
+names = ["Angel", "Grace", "Margaret", "Sean"]
 
 # Array of Integers
 
-age = 33
-year_of_birth = 1989
-number_of_pets = 1
-number_of_siblings = 1
+years = ["2019", "2020", "2021", "2022"]
 
 # Array of Floats
 
-cost_of_tuition = 20000.00
-dog_food = 50.00
-pet_insurance = 35.00
-car_insurance = 100.00
+my_pets_monthly_costs = ["35.00", "50.00", "60.00", "160.00"]
 
 # Array of Booleans
 
