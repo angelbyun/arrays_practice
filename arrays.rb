@@ -51,3 +51,11 @@ p names
 # Index Positions
 ## In most programming languages, counting starts at 0 and not 1. 0 is referred to as the index position. So in an array such as names = ["Angel", "Grace", "Margaret", "Sean"], "Angel" would be 0 and "Sean" would be 3.
 
+# Additional Method - Drop Method
+
+numbers = [1, 2, 3, 4]
+numbers.drop(2)
+
+p numbers
+
+# this drops the element and returns the rest of the elements in the array
