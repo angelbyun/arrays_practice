@@ -47,3 +47,7 @@ names.unshift("Jack", "Jill") # =>
 p names
 
 # when using the unshift method, it will push the elements into the front of the element
+
+# Index Positions
+## In most programming languages, counting starts at 0 and not 1. 0 is referred to as the index position. So in an array such as names = ["Angel", "Grace", "Margaret", "Sean"], "Angel" would be 0 and "Sean" would be 3.
+
