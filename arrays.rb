@@ -8,14 +8,11 @@ numbers = [1, 2, 3, 4]
 
 # Array of Floats
 
-my_pets_monthly_costs = ["35.00", "50.00", "60.00", "160.00"]
+my_pets_monthly_costs = [35.00, 50.00, 60.00, 160.00]
 
 # Array of Booleans
 
-paid_deposit = true
-paid_tuition = false
-loan_disbursed = false
-loan_approval = true
+paid_tuition [true, false, true, false]
 
 # Pop Method
 names = ["Angel", "Grace", "Margaret", "Sean"]
@@ -29,7 +26,7 @@ numbers = [1, 2, 3, 4]
 a = numbers.push(5, 6, 7)
 
 puts "#{a}"
-# when using the push method, it will push an array to the end of another array
+# when using the push method, it will push an array to the end of an array
 
 # Shift Method
 names = ["Angel", "Grace", "Margaret", "Sean"]
@@ -37,7 +34,7 @@ names.shift # => "Angel"
 
 p names
 
-# when using the shift method, it will remove elements from the array. In this instance, I removed Angel from the array
+# when using the shift method, it will remove elements from the array. In this instance, I removed "Angel" from the array
 
 # Unshift Method
 
