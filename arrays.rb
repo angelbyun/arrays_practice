@@ -12,7 +12,7 @@ my_pets_monthly_costs = [35.00, 50.00, 60.00, 160.00]
 
 # Array of Booleans
 
-paid_tuition [true, false, true, false]
+paid_tuition = [true, false, true, false]
 
 # Pop Method
 names = ["Angel", "Grace", "Margaret", "Sean"]
@@ -25,8 +25,8 @@ p names
 numbers = [1, 2, 3, 4]
 a = numbers.push(5, 6, 7)
 
-puts "#{a}"
-# when using the push method, it will push an array to the end of an array
+puts a
+# when using the push method, it will push an element to the end of an array
 
 # Shift Method
 names = ["Angel", "Grace", "Margaret", "Sean"]
